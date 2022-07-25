@@ -1,0 +1,79 @@
+#
+在Windows下，进入已写入树莓派系统的SD卡，找到config.txt（最好备份一下这个）。建议，不管你是什么显示器，或者高清电视机，最好在没显示的情况，请将config.txt 中的分辨率调低一些，不要老想着，我的显示设备支持1080p，就非得一步到位。。。建议从下面的低分辨率尝试开始：
+计算机显示器使用的分辨率 ：
+hdmi_mode=4 640x480 60Hz 
+hdmi_mode=9 800x600 60Hz 
+hdmi_mode=16 1024x768 60Hz 
+
+CEA规定的电视规格分辨率。：
+hdmi_mode=2 480p 60Hz 
+hdmi_mode=4 720p 60Hz 
+
+另外：若直接使用的是HDMI线接显示设备，请在config.txt中添加一条：
+
+hdmi_ignore_edid=0xa5000080
+
+这个是命令树莓派不检测HDMI设备的任何信息，只按照我们指定的分辨率输出。 这样就不会自动检测显示设备的分辨率，而避免掉很多可能不显示的造成因素，就会按照你自己设置的分辨率显示。分辨率也按照上面列出的尝试，修改config.txt 中hdmi_mode=x 的”x“值。
+#
+
+#
+在树莓派上编辑boot / config.txt文件的3种方法
+www.elecfans.com/d/1122843.html
+#
+
+
+gst-launch-1.0 v4l2src device=/dev/video0 ! "image/jpeg" ! rtpjpegpay ! udpsink clients = "169.254.150.159:5600"
+gst-launch-1.0 uvch264src initial-bitrate=1000000 average-bitrate=1000000 iframe-period=1000 device=/dev/video2 name=src auto-start=true src.vidsrc ! video/x-h264,width=1920,height=1080,framerate=24/1 ! h264parse ! rtph264pay ! udpsink host=169.254.150.159 port=5600
+# qgc 发送
+gst-launch-1.0 v4l2src device=/dev/video0 name=src  src.vidsrc ! video/x-h264,width=1920,height=1080,framerate=24/1 ! h264parse ! rtph264pay ! udpsink host=169.254.150.159 port=5600
+#v4l2src 启动
+gst-launch-1.0 -v  v4l2src device=/dev/video2 ! 'video/x-h264,width=1920,height=1080,framerate=30/1'  ! rtph264pay  ! udpsink clients="169.254.150.159:5600"
+gst-launch-1.0 v4l2src device=/dev/video2 ! video/x-h264,width=1920,height=1080,framerate=30/1 ! h264parse ! rtph264pay ! udpsink host=169.254.150.159 port=5000
+
+
+
+gst-launch-1.0 -v udpsrc uri=udp://169.254.150.159:5600 ! rtph264depay ! ffdec_h264 ! xvimagesink
+gst-launch-1.0 udpsrc uri=udp://169.254.150.159:5600 ! application/x-rtp,media=video,clock-rate=90000,encoding-name=H264 ! rtph264depay ! h264parse ! avdec_h264 ! videoconvert ! autovideosink
+
+
+#接收
+gst-launch-1.0 udpsrc port=5000 caps="application/x-rtp, media=(string)video, encoding-name=(string)H264" ! rtph264depay ! avdec_h264 ! autovideosink
+
+gst-launch-1.0 v4l2src device=/dev/video0  !  video/x-raw,width=1280,height=720,framerate=20/1  !  udpsink clients = "169.254.150.159:5004"
+
+gst-launch-1.0 -v v4l2src device=/dev/video2 ! 'video/x-h264,width=1920,height=1080,framerate=30/1' ! rtph264pay ! udpsink clients="169.254.150.159:5600"
+
+##gstreamer 1.0  测试 捕获 显示
+
+gst-launch-1.0 v4l2src device=/dev/video2  !  video/x-raw,width=1280,height=720,framerate=20/1  !  autovideosink
+
+ffmpeg -f v4l2 -i /dev/video0 -pix_fmt yuv420p -c:v libx265 -preset ultrafast -x265-params crf=23 -strict experimental -f rtp udp://169.254.150.159:5600
+192.168.2.241
+gst-launch-1.0 v4l2src device=/dev/video2 ! 'video/x-h264,width=1920,height=1080,framerate=30/1' ! rtph264pay ! udpsink clients="192.168.1.102:5600"
+1
+ls
+ls /dev/video*
+v4l2-ctl --list-formats -d /dev/video2
+v4l2-ctl --list-formats -d /dev/video2
+gst-launch-1.0 v4l2src device=/dev/video0 ! videoconvert ! ximagesink
+gst-launch-1.0 tcpclientsrc host=169.254.150.159 port=5000 ! image/jpeg, framerate=25/1 ! jpegparse ! jpegdec ! queue ! videoconvert ! autovideosink
+
+gst-launch-1.0 fdsrc ! video/x-h264,framerate=25/1,stream-format=byte-stream ! decodebin ! videorate ! video/x-raw,framerate=10/1 ! \
+videoconvert ! jpegenc ! tcpserversink host=169.254.150.159 port=5600
+
+gst-launch-1.0 uvch264src initial-bitrate=1000000 average-bitrate=1000000 iframe-period=1000 device=/dev/video0 name=src auto-start=true src.vidsrc ! video/x-264,width=1920,height=1080,framerate=24/1 ! h264parse ! rtph264pay ! udpsink host=169.254.150.159 port=5600
+
+ffmpeg -f v4l2 -i /dev/video0 -pix_fmt yuv420p -c:v libx265 -preset ultrafast -x265-params crf=23 -strict experimental -f rtp udp://169.254.150.159:5600
+
+gst-launch-1.0 videotestsrc ! video/x-raw,width=640,height=480 ! videoconvert ! x264enc ! rtph264pay ! udpsink host=169.254.150.159 port=5600
+
+192.168.8.124
+
+gst-launch-1.0 uvch264src initial-bitrate=1000000 average-bitrate=1000000 iframe-period=1000 device=/dev/video1 name=src auto-start=true src.vidsrc ! video/x-h264,width=1920,height=1080,framerate=24/1 ! h264parse ! rtph264pay !  udpsink clients = "127.0.0.1:5600"
+
+#安装
+sudo apt install libssl1.0.0 libgstreamer1.0-0 gstreamer1.0-tools gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav libgstrtspserver-1.0-0 libjansson4 libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
+sudo apt-get install -y --force-yes build-essential autotools-dev automake autoconf libtool autopoint libxml2-dev zlib1g-dev libglib2.0-dev pkg-config bison flex python git gtk-doc-tools libasound2-dev libgudev-1.0-dev libxt-dev libvorbis-dev libcdparanoia-dev libpango1.0-dev libtheora-dev libvisual-0.4-dev iso-codes libgtk-3-dev libraw1394-dev libiec61883-dev libavc1394-dev libv4l-dev libcairo2-dev libcaca-dev libspeex-dev libpng-dev libshout3-dev libjpeg-dev libaa1-dev libflac-dev libdv4-dev libtag1-dev libwavpack-dev libpulse-dev libsoup2.4-dev libbz2-dev libcdaudio-dev libdc1394-22-dev ladspa-sdk libass-dev libcurl4-gnutls-dev libdca-dev libdirac-dev libdvdnav-dev libexempi-dev libexif-dev libfaad-dev libgme-dev libgsm1-dev libiptcdata0-dev libkate-dev libmimic-dev libmms-dev libmodplug-dev libmpcdec-dev libofa0-dev libopus-dev librsvg2-dev librtmp-dev libslv2-dev libsndfile1-dev libsoundtouch-dev libspandsp-dev libx11-dev libxvidcore-dev libzbar-dev libzvbi-dev liba52-0.7.4-dev libcdio-dev libdvdread-dev libmad0-dev libmp3lame-dev libmpeg2-4-dev libopencore-amrnb-dev libopencore-amrwb-dev libsidplay1-dev libtwolame-dev libx264-dev
+
+
+gst-launch-1.0 v4l2src device=/dev/video1 ! video/x-raw,format=\(fourcc\)YUY2,width=640,height=480,framerate=15/1 ! queue2 ! videorate ! videoscale ! videoconvert ! xvimagesink
