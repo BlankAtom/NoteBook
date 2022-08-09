@@ -8,9 +8,9 @@
 
 - **GIt**
 - **SVN** ( Subversion )
-- **CVS **(Concurrent Versions System )
-- **VSS **( Micorosoft Visual SourceSafe )
-- **TFS **(Team Foundation Server )
+- **CVS**(Concurrent Versions System )
+- **VSS**( Micorosoft Visual SourceSafe )
+- **TFS**(Team Foundation Server )
 - **Visual Studio Online**
 
 
@@ -19,15 +19,15 @@
 
 > 版本控制的分类
 
-##### 1、 本地版本控制
+1、本地版本控制
 
-##### 2、集中版本控制
-
-
+2、集中版本控制
 
 
 
-## 2、
+
+
+## 2、Git 基本架构
 
 ![image-20200723180621761](image-20200723180621761.png)
 
