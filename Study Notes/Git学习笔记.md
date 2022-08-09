@@ -29,8 +29,9 @@
 
 ## 2、Git 基本架构
 
-![image-20200723180621761](image-20200723180621761.png)
+![image-20200723180621761](https://github.com/blackswords/PictureResources/blob/main/image-20200723180621761.png)
 
+<img src="https://api.github.com/blackswords/PictureResources/image-20200723180621761.png"/>
 
 
 
