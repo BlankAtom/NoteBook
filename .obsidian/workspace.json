@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Coding Up/数据结构学习.md",
+                "file": "Algorithm/算法学习.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Coding Up/数据结构学习.md",
+                "file": "Algorithm/算法学习.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Coding Up/数据结构学习.md",
+                "file": "Algorithm/算法学习.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Coding Up/数据结构学习.md"
+                "file": "Algorithm/算法学习.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "8abda0c80f973bea",
+  "active": "780299705b6c6ebd",
   "lastOpenFiles": [
-    "Coding Up/设计模式.md",
-    "软件测试试卷解析.md",
-    "随笔/任务线.md",
-    "后端网络编程问题.md",
-    "Computer Graphics/对地面网格的思考和实现.md",
-    "Biger Data Notes/大数据课程设计概念书.md",
-    "罗庆宏.md",
-    "临时存储.md",
-    "临时笔记.md",
-    "Tools Notes/Git学习笔记.md"
+    "C#程序设计.md",
+    "C# 面试资料.md",
+    "中印边境战争笔记.md",
+    "政治考研精讲.md",
+    "新学期课程安排.md",
+    "未命名.md",
+    "微服务学习笔记.md",
+    "团队设想：.md",
+    "课程设计定案.md",
+    "Docker/使用Docker安装MongoDB.md"
   ]
 }
