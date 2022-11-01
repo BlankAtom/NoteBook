@@ -129,7 +129,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -138,10 +139,10 @@
   },
   "active": "15bd4bb7df6250cd",
   "lastOpenFiles": [
-    "未命名.md",
     "大数据课程设计概念书.md",
-    "LeetCode Notes/第二周 - LeetCode 每日一题.md",
     "Tools Notes/Git学习笔记.md",
+    "未命名.md",
+    "LeetCode Notes/第二周 - LeetCode 每日一题.md",
     "LeetCode Notes/第一周 - LeetCode每日一题.md",
     "Pictures/git-gitignore.png",
     "Daily Notes/2022春招感悟.md",
