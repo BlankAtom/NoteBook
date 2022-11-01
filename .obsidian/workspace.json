@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "783de697e18d9a51",
+        "id": "fd08b4d2160ca8ec",
         "type": "tabs",
         "children": [
           {
-            "id": "63ad5895da840f25",
+            "id": "15bd4bb7df6250cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Study Notes/Git学习笔记.md",
+                "file": "Tools Notes/Git学习笔记.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Study Notes/Git学习笔记.md",
+                "file": "Tools Notes/Git学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Study Notes/Git学习笔记.md",
+                "file": "Tools Notes/Git学习笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Study Notes/Git学习笔记.md"
+                "file": "Tools Notes/Git学习笔记.md"
               }
             }
           }
@@ -136,11 +136,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8abda0c80f973bea",
+  "active": "15bd4bb7df6250cd",
   "lastOpenFiles": [
+    "未命名.md",
     "大数据课程设计概念书.md",
-    "2022春招感悟.md",
-    "基于网盘的图床设计想法.md",
-    "第二周 - LeetCode 每日一题.md"
+    "LeetCode Notes/第二周 - LeetCode 每日一题.md",
+    "Tools Notes/Git学习笔记.md",
+    "LeetCode Notes/第一周 - LeetCode每日一题.md",
+    "Pictures/git-gitignore.png",
+    "Daily Notes/2022春招感悟.md",
+    "基于网盘的图床设计想法.md"
   ]
 }

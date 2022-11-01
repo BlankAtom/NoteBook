@@ -30,7 +30,7 @@
 ## 2、Git 基本架构
 
 
-![[image-20200723180621761.png]]
+![git-base-arch.png](../Pictures/git-base-arch.png "Git Arch")
 
 
 
@@ -40,9 +40,7 @@
 
 在 .gitignore 中编写忽略的内容
 
-![image-20200723181905638.png](https://s2.loli.net/2022/08/10/3meJ8lPGIEVH2xO.png)
-
-
+![[git-gitignore.png]]
 
 
 
