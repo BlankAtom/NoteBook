@@ -30,10 +30,7 @@
 ## 2、Git 基本架构
 
 
-![image-20200723180621761.png](https://s2.loli.net/2022/08/10/dmEGNLAWzHUo3Yb.png)
-
-
-
+![[image-20200723180621761.png]]
 
 
 

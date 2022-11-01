@@ -11,8 +11,12 @@
             "id": "63ad5895da840f25",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Study Notes/Git学习笔记.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Study Notes/Git学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Study Notes/Git学习笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Study Notes/Git学习笔记.md"
+              }
             }
           }
         ]
@@ -128,6 +136,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "63ad5895da840f25",
-  "lastOpenFiles": []
+  "active": "8abda0c80f973bea",
+  "lastOpenFiles": [
+    "大数据课程设计概念书.md",
+    "2022春招感悟.md",
+    "基于网盘的图床设计想法.md",
+    "第二周 - LeetCode 每日一题.md"
+  ]
 }
