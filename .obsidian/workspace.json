@@ -11,12 +11,8 @@
             "id": "15bd4bb7df6250cd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "后端网络编程问题.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "后端网络编程问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "后端网络编程问题.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "后端网络编程问题.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -136,8 +128,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "15bd4bb7df6250cd",
+  "active": "7dad3e1fa7db7fb4",
   "lastOpenFiles": [
+    "后端网络编程问题.md",
     "Computer Graphics/对地面网格的思考和实现.md",
     "Biger Data Notes/大数据课程设计概念书.md",
     "罗庆宏.md",
@@ -146,7 +139,6 @@
     "Tools Notes/Git学习笔记.md",
     "未命名.md",
     "LeetCode Notes/第二周 - LeetCode 每日一题.md",
-    "LeetCode Notes/第一周 - LeetCode每日一题.md",
-    "Pictures/git-gitignore.png"
+    "LeetCode Notes/第一周 - LeetCode每日一题.md"
   ]
 }
