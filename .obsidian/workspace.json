@@ -64,6 +64,17 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "7dad3e1fa7db7fb4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
           }
         ]
       }
@@ -109,17 +120,6 @@
             }
           },
           {
-            "id": "7dad3e1fa7db7fb4",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
-              }
-            }
-          },
-          {
             "id": "ba5e5df6932e2632",
             "type": "leaf",
             "state": {
@@ -130,13 +130,14 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "780299705b6c6ebd",
+  "active": "8abda0c80f973bea",
   "lastOpenFiles": [
     "C#程序设计.md",
     "C# 面试资料.md",
