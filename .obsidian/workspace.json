@@ -64,17 +64,6 @@
               "type": "starred",
               "state": {}
             }
-          },
-          {
-            "id": "7dad3e1fa7db7fb4",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
-              }
-            }
           }
         ]
       }
@@ -120,6 +109,17 @@
             }
           },
           {
+            "id": "7dad3e1fa7db7fb4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
             "id": "ba5e5df6932e2632",
             "type": "leaf",
             "state": {
@@ -138,15 +138,15 @@
   },
   "active": "780299705b6c6ebd",
   "lastOpenFiles": [
-    "hadoop镜像构建.md",
-    "GoLang.md",
-    "GoLang学习.md",
-    "Electron.md",
+    "后端网络编程问题.md",
     "Algorithm/算法学习.md",
     "C#程序设计.md",
     "C# 面试资料.md",
     "中印边境战争笔记.md",
     "政治考研精讲.md",
-    "新学期课程安排.md"
+    "新学期课程安排.md",
+    "未命名.md",
+    "微服务学习笔记.md",
+    "团队设想：.md"
   ]
 }
