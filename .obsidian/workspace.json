@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 295.5
   },
   "right": {
     "id": "d6cfd5a5fb69d559",
@@ -149,7 +149,7 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "86a0e374eccb11ce",
+  "active": "8abda0c80f973bea",
   "lastOpenFiles": [
     "MapReduce 编程初级实践.md",
     "后端网络编程问题.md",
