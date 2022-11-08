@@ -13,22 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MapReduce 编程初级实践.md",
+                "file": "hadoop镜像构建.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "86a0e374eccb11ce",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "hadoop镜像构建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "hadoop镜像构建.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "hadoop镜像构建.md"
+              }
             }
           }
         ],
@@ -142,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8abda0c80f973bea",
+  "active": "780299705b6c6ebd",
   "lastOpenFiles": [
-    "MapReduce 编程初级实践.md",
-    "后端网络编程问题.md",
-    "Algorithm/算法学习.md",
-    "C#程序设计.md",
-    "C# 面试资料.md",
+    "GoLang.md",
+    "Docker学习.md",
     "中印边境战争笔记.md",
-    "政治考研精讲.md",
-    "新学期课程安排.md",
-    "对“网课爆破”事件的深思与在线教育系统和会议系统的改进建议.md",
-    "微服务学习笔记.md"
+    "C# 面试资料.md",
+    "C#程序设计.md",
+    "C++ 面试问题.md",
+    "Vue 3.0 学习.md",
+    "Http协议.md",
+    "image-20220327150805366.md",
+    "计算机网络.md"
   ]
 }

@@ -1,8 +1,8 @@
 # Http
 HTTP（hypertext transport protocol）协议【超文本传输协议】，协议详细规定了浏览器和万维网服务器之间互相通信的规则。
 是一个约定、规则
-<br/>
-<br/>
+<br>
+<br>
 
 ## 请求报文
 重点是格式与参数
@@ -15,8 +15,8 @@ HTTP（hypertext transport protocol）协议【超文本传输协议】，协议
 空行
 体      username=admin&password=admin
 ```
-<br/>
-<br/>
+<br>
+<br>
 
 ## 响应报文
 ```
