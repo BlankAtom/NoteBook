@@ -41,3 +41,11 @@ app.UseCors("CorName");
 ```
 > Tips: 跨域应用的位置在`UseRouting`之后
 
+
+## 动态加载程序集并注册`Controller`
+```cs
+foreach(Assembly a in assemblies)
+	services.AddControllers().AddApplicationPart(a);
+```
+
+> note: `services.AddControllers()`会返回`IMvcBuilder`实例，如果多 
