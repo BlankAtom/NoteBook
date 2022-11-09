@@ -48,4 +48,5 @@ foreach(Assembly a in assemblies)
 	services.AddControllers().AddApplicationPart(a);
 ```
 
-> note: `services.AddControllers()`会返回`IMvcBuilder`实例，如果多 
+> note: `services.AddControllers()`会返回`IMvcBuilder`实例，如果有多次凋用该方法的情况，可以先获取实例，再调用。
+
