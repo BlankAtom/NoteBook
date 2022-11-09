@@ -8,4 +8,12 @@ public void ConfigureServices(IServiceCollection services) {
 }
 ```
 
-# 设置
+## 设置全局`JsonOptions`
+```
+services.AddControllers().AddJsonOptions(options => {
+	options.JsonSerializerOptions.IncludeFields = true;
+	options.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+})
+```
+
+## 添加全局过 
