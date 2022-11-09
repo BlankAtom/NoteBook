@@ -39,4 +39,5 @@ In application app built.
 ```C#
 app.UseCors("CorName");
 ```
-> Tips: 跨域应 
+> Tips: 跨域应用的位置在`UseRouting`之后
+
