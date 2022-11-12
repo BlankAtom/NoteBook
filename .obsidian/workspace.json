@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8939fa10d13e12cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "模拟工厂.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "次元虫洞解压密码.md",
+                "file": "模拟工厂.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "次元虫洞解压密码.md",
+                "file": "模拟工厂.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "次元虫洞解压密码.md"
+                "file": "模拟工厂.md"
               }
             }
           }
@@ -161,8 +173,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "abe7d62f927396ed",
+  "active": "8939fa10d13e12cd",
   "lastOpenFiles": [
+    "次元虫洞解压密码.md",
     "PPTP VPN 搭建方式及相关问题.md",
     "MapReduce 编程初级实践.md",
     "hadoop镜像构建.md",
@@ -171,7 +184,6 @@
     "Electron.md",
     "Algorithm/算法学习.md",
     "C#程序设计.md",
-    "C# 面试资料.md",
-    "中印边境战争笔记.md"
+    "C# 面试资料.md"
   ]
 }
