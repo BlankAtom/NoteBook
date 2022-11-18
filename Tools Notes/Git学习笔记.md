@@ -46,3 +46,14 @@
 
 # 4、公钥
 
+
+
+# 5、远程仓库更改
+查看远程仓库
+`git remote -v`
+
+添加远程仓库
+`git remote add <repo name> <repo url>`
+
+删除远程仓库
+`git remote remove <repo name>`
