@@ -1,76 +1,39 @@
 {
   "main": {
-    "id": "b681c15811ae0440",
+    "id": "bbd801e927301bfd",
     "type": "split",
     "children": [
       {
-        "id": "e82977c8a9e44191",
+        "id": "85caddb28a01f1a3",
         "type": "tabs",
         "children": [
           {
-            "id": "c809a599e77dc11d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "0359b8ca9a897ae3",
+            "id": "8ad64dd145825b75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tools Notes/Git学习笔记.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7ded84acba20e8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Windows cmd.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80ebb99e3e1c800d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SSH - Server Windows.md",
+                "file": "次元虫洞解压密码.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-<<<<<<< HEAD
         ]
-=======
-        ],
-        "currentTab": 4
->>>>>>> a839ee0ea66d0cce8c4c76df36e5f140befe4866
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fd00051daf6b7ee4",
+    "id": "cb84d636097b0368",
     "type": "split",
     "children": [
       {
-        "id": "3b4143e80e649504",
+        "id": "cb2830f2400fad4f",
         "type": "tabs",
         "children": [
           {
-            "id": "8abda0c80f973bea",
+            "id": "def864a7ef8fdaf9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -80,12 +43,12 @@
             }
           },
           {
-            "id": "21cece41a4ec8649",
+            "id": "e23af93b41d7dc6d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Netty",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,22 +58,11 @@
             }
           },
           {
-            "id": "cea2c8eb5a4d5cfc",
+            "id": "896814951d8ae4ea",
             "type": "leaf",
             "state": {
               "type": "starred",
               "state": {}
-            }
-          },
-          {
-            "id": "7dad3e1fa7db7fb4",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false
-              }
             }
           }
         ]
@@ -120,23 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "d6cfd5a5fb69d559",
+    "id": "89193a19f281a411",
     "type": "split",
     "children": [
       {
-        "id": "de765c80d1a52aa4",
+        "id": "6467e0cf9d734cf7",
         "type": "tabs",
         "children": [
           {
-            "id": "76c0fcaefd8d76cb",
+            "id": "c595a2cf3d2f4ba5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-=======
-                "file": "SSH - Server Windows.md",
->>>>>>> a839ee0ea66d0cce8c4c76df36e5f140befe4866
+                "file": "次元虫洞解压密码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,67 +97,45 @@
             }
           },
           {
-            "id": "e8838ca0e87fbf09",
+            "id": "fcda20126cbd4da9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-=======
-                "file": "SSH - Server Windows.md",
->>>>>>> a839ee0ea66d0cce8c4c76df36e5f140befe4866
+                "file": "次元虫洞解压密码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "ba5e5df6932e2632",
+            "id": "91572a4ab43f0957",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6106efb11a9746c",
             "type": "leaf",
             "state": {
               "type": "outline",
-<<<<<<< HEAD
-              "state": {}
-=======
               "state": {
-                "file": "SSH - Server Windows.md"
+                "file": "次元虫洞解压密码.md"
               }
->>>>>>> a839ee0ea66d0cce8c4c76df36e5f140befe4866
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-<<<<<<< HEAD
-  "active": "c809a599e77dc11d",
-  "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "次元虫洞解压密码.md",
-    "后端网络编程问题.md",
-    "信息茧房、信息时代、和未来.md",
-    "模拟工厂.md",
-    "PPTP VPN 搭建方式及相关问题.md",
-    "MapReduce 编程初级实践.md",
-    "hadoop镜像构建.md",
-    "GoLang.md",
-    "GoLang学习.md"
-=======
-  "active": "80ebb99e3e1c800d",
-  "lastOpenFiles": [
-    "Windows cmd.md",
-    "Tools Notes/Git学习笔记.md",
-    "高并发的实践方案.md",
-    "Web api 开发实践总结.md",
-    "hadoop镜像构建.md",
-    "GoLang.md",
-    "Docker学习.md",
-    "中印边境战争笔记.md",
-    "C# 面试资料.md",
-    "C#程序设计.md"
->>>>>>> a839ee0ea66d0cce8c4c76df36e5f140befe4866
-  ]
+  "active": "8ad64dd145825b75",
+  "lastOpenFiles": []
 }
