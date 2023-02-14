@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fleet 架构/第一部分 - 架构概述.md",
+                "file": "Fleet 架构/Fleet 后台探秘.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleet 架构/第一部分 - 架构概述.md",
+                "file": "Fleet 架构/Fleet 后台探秘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fleet 架构/第一部分 - 架构概述.md",
+                "file": "Fleet 架构/Fleet 后台探秘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fleet 架构/第一部分 - 架构概述.md"
+                "file": "Fleet 架构/Fleet 后台探秘.md"
               }
             }
           }
@@ -149,7 +149,7 @@
   "active": "8cb7c5eda6fa5ea0",
   "lastOpenFiles": [
     "Pictures/fleet-struct-15.png",
-    "Fleet 架构/第一部分 - 架构概述.md",
+    "Fleet 架构/Fleet 后台探秘.md",
     "Pictures/Vitaly-Bragilesky.jpg",
     "conflict-files-obsidian-git.md",
     "Tools Notes/Git学习笔记.md",
