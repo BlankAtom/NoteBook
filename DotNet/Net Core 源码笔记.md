@@ -45,3 +45,28 @@ public static bool Contains(IEnumerable<TSource> source, TSource value) {
 	}  
 }
 ```
+
+# IEnumerable.Find
+```C#
+public T? Find(Predicate<T> match)  
+{  
+    if (match == null)  
+    {  
+        ThrowHelper.ThrowArgumentNullException(ExceptionArgument.match);  
+    }  
+  
+    for (int i = 0; i < _size; i++)  
+    {  
+        if (match(_items[i]))  
+        {  
+            return _items[i];  
+        }  
+    }  
+    return default;  
+}
+```
+Find 也是对集合进行遍历然后返回第一个对应的元素的。
+FindAll同理。
+
+# IArraySortHelper.BinarySearch
+·
