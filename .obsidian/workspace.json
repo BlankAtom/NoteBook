@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e320be476a430c74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DotNet/Net Core 源码笔记.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 295.5,
+    "collapsed": true
   },
   "right": {
     "id": "d6cfd5a5fb69d559",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fleet 架构/Fleet 后台探秘.md",
+                "file": "DotNet/Net Core 源码笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fleet 架构/Fleet 后台探秘.md",
+                "file": "DotNet/Net Core 源码笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fleet 架构/Fleet 后台探秘.md"
+                "file": "DotNet/Net Core 源码笔记.md"
               }
             }
           }
@@ -134,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,10 +161,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8cb7c5eda6fa5ea0",
+  "active": "ba5e5df6932e2632",
   "lastOpenFiles": [
-    "Pictures/fleet-struct-15.png",
     "Fleet 架构/Fleet 后台探秘.md",
+    "Pictures/fleet-struct-15.png",
     "Pictures/Vitaly-Bragilesky.jpg",
     "conflict-files-obsidian-git.md",
     "Tools Notes/Git学习笔记.md",
