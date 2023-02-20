@@ -69,4 +69,40 @@ Find 也是对集合进行遍历然后返回第一个对应的元素的。
 FindAll同理。
 
 # IArraySortHelper.BinarySearch
-·
+```C#
+private static int BinarySearch(T[] array, int index, int length, T value)  
+{  
+    int lo = index;  
+    int hi = index + length - 1;  
+    while (lo <= hi)  
+    {  
+        int i = lo + ((hi - lo) >> 1);  
+        int order;  
+        if (array[i] == null)  
+        {  
+            order = (value == null) ? 0 : -1;  
+        }  
+        else  
+        {  
+            order = array[i].CompareTo(value);  
+        }  
+  
+        if (order == 0)  
+        {  
+            return i;  
+        }  
+  
+        if (order < 0)  
+        {  
+            lo = i + 1;  
+        }  
+        else  
+        {  
+            hi = i - 1;  
+        }  
+    }  
+  
+    return ~lo;  
+}
+```
+当自定义comparetor之后，判断依据也就会用定义的方式
