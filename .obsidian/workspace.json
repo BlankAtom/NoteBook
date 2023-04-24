@@ -1,52 +1,35 @@
 {
   "main": {
-    "id": "b681c15811ae0440",
+    "id": "bbd801e927301bfd",
     "type": "split",
     "children": [
       {
-        "id": "e80a139a59596565",
+        "id": "be3eda3f365fe458",
         "type": "tabs",
         "children": [
           {
-            "id": "8cb7c5eda6fa5ea0",
+            "id": "4095d7675912e737",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Fleet 架构/Fleet 后台探秘.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e320be476a430c74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DotNet/Net Core 源码笔记.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fd00051daf6b7ee4",
+    "id": "cb84d636097b0368",
     "type": "split",
     "children": [
       {
-        "id": "3b4143e80e649504",
+        "id": "cb2830f2400fad4f",
         "type": "tabs",
         "children": [
           {
-            "id": "8abda0c80f973bea",
+            "id": "def864a7ef8fdaf9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,12 +39,12 @@
             }
           },
           {
-            "id": "21cece41a4ec8649",
+            "id": "e23af93b41d7dc6d",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Netty",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +54,7 @@
             }
           },
           {
-            "id": "cea2c8eb5a4d5cfc",
+            "id": "896814951d8ae4ea",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -82,24 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 295.5,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "d6cfd5a5fb69d559",
+    "id": "89193a19f281a411",
     "type": "split",
     "children": [
       {
-        "id": "de765c80d1a52aa4",
+        "id": "6467e0cf9d734cf7",
         "type": "tabs",
         "children": [
           {
-            "id": "76c0fcaefd8d76cb",
+            "id": "c595a2cf3d2f4ba5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DotNet/Net Core 源码笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,67 +92,44 @@
             }
           },
           {
-            "id": "e8838ca0e87fbf09",
+            "id": "fcda20126cbd4da9",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DotNet/Net Core 源码笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "7dad3e1fa7db7fb4",
+            "id": "91572a4ab43f0957",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           },
           {
-            "id": "ba5e5df6932e2632",
+            "id": "b6106efb11a9746c",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "DotNet/Net Core 源码笔记.md"
-              }
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "left-ribbon": {
-    "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
-    }
-  },
-  "active": "ba5e5df6932e2632",
+  "active": "4095d7675912e737",
   "lastOpenFiles": [
-    "Fleet 架构/Fleet 后台探秘.md",
-    "Pictures/fleet-struct-15.png",
-    "Pictures/Vitaly-Bragilesky.jpg",
-    "conflict-files-obsidian-git.md",
-    "Tools Notes/Git学习笔记.md",
-    "Pictures/fleet-struct-1.png",
-    "Pictures/git-base-arch.png",
-    "Pictures/202203271508511.png",
-    "Windows cmd.md",
-    "SSH - Server Windows.md"
+    "次元虫洞解压密码.md"
   ]
 }
